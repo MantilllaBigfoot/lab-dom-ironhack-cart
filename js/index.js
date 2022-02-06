@@ -47,7 +47,6 @@ function createProduct() {
 
   const productClass = document.createElement('tr');
   productClass.className = 'product';
-  console.log(productClass);
 
   const nameTd = document.createElement('td');
   nameTd.className = 'name';
